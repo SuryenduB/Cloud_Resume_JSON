@@ -4,6 +4,6 @@ variable "region" {
 }
 
 variable "lambda_function_name" {
-    default = "readResume"
-  
+  default = "readResume"
+
 }
