@@ -7,8 +7,7 @@ jobs:
   terraform_destroy:
     name: "Terraform_destroy"
     runs-on: ubuntu-latest
-    defaults:
-      run:
+    
         
     
     steps:
