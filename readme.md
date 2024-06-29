@@ -31,3 +31,6 @@ aws dynamodb get-item \
 
 
 ### Step 5: Create API Gateway , Integrate with the Lambda Function, Create GET Method and Set up CORS
+
+
+### Step 6: Add Github Actions to deploy infrastructure.

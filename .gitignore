@@ -32,3 +32,5 @@ terraform.rc
 
 # Ignore provider lock file
 .terraform.lock.hcl
+
+resume_response.json
