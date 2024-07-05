@@ -33,7 +33,7 @@ data "aws_iam_policy_document" "lambda_dynamodb" {
 }
 
 resource "aws_iam_policy" "lambda_dynamodb" {
-  name        = "lambda_dynamodb"
+  name        = "lambda_dynamodb_resume"
   path        = "/"
   description = "IAM policy for managing dynamodb items"
   policy      = data.aws_iam_policy_document.lambda_dynamodb.json
